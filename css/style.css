@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px   ;
+}
+
+section:nth-child(even){
+    background-color: antiquewhite;
+
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: saddlebrown;
+}
+
+#s1{
+    justify-content: center;
+}
+#s2{
+    justify-content: flex-end;
+}
+#s3{
+    justify-content: space-between;
+}
+#s4{
+    justify-content: flex-start;
+}
+#s5{
+    justify-content: space-around;
+}
